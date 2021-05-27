@@ -5,6 +5,7 @@ public class Restaurant {
     public static void main(String[] args) {
         System.out.println("Welcome to Our Restaurant Menu");
         System.out.println("------------------------------");
+
         //to add item to the MenuItem list, create an instance method and add item1, item2 and so on.
         MenuItem appetizerItem1 = new MenuItem("Chicken Lollipop","appetizer",
                 "Chicken on the bone.",10.49);

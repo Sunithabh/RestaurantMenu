@@ -3,6 +3,10 @@ import java.util.ArrayList;
 
 public class Menu {
     // instantiate
+    //ArrayList variable not being instantiated
+    // throws an error: NullPointerException.
+    //this calls default constructor and assigns empty string
+    // to the menu variable so that it is not null anymore.
     private ArrayList<MenuItem> menu = new ArrayList<>();
 
 

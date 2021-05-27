@@ -44,6 +44,7 @@ public class MenuItem {
         public String isNewOrNot() {
             return "New Item!!!";
         }
+
     @Override
     public String toString(){
         final StringBuilder sb = new StringBuilder("MenuItem:");
