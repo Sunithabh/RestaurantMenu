@@ -44,4 +44,12 @@ public class MenuItem {
         public String isNewOrNot() {
             return "New Item!!!";
         }
+    @Override
+    public String toString(){
+        final StringBuilder sb = new StringBuilder("MenuItem:");
+        sb.append("name = ").append(name);
+        sb.append(",price = ").append(price);
+        sb.append(",category =").append(category);
+        return sb.toString();
+    }
 }
